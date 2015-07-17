@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include provisional_store *.css
+recursive-include provisional_store *.csv
+recursive-include provisional_store *.html
+recursive-include provisional_store *.ico
+recursive-include provisional_store *.js
+recursive-include provisional_store *.json
+recursive-include provisional_store *.md
+recursive-include provisional_store *.png
+recursive-include provisional_store *.py
+recursive-include provisional_store *.svg
+recursive-include provisional_store *.txt
+recursive-exclude provisional_store *.pyc
